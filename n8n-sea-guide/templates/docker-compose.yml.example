@@ -1,0 +1,75 @@
+services:
+  postgres:
+    image: postgres:15
+    container_name: n8n-postgres
+    restart: always
+    environment:
+      - POSTGRES_USER=n8n
+      - POSTGRES_PASSWORD=your-postgres-password-here
+      - POSTGRES_DB=n8n
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U n8n"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  n8n:
+    image: n8nio/n8n
+    container_name: n8n
+    restart: always
+    ports:
+      - "5678:5678"
+    environment:
+      # Authentication
+      - N8N_BASIC_AUTH_ACTIVE=true
+      - N8N_BASIC_AUTH_USER=admin
+      - N8N_BASIC_AUTH_PASSWORD=your-secure-password-here
+
+      # Database
+      - DB_TYPE=postgresdb
+      - DB_POSTGRESDB_HOST=postgres
+      - DB_POSTGRESDB_PORT=5432
+      - DB_POSTGRESDB_DATABASE=n8n
+      - DB_POSTGRESDB_USER=n8n
+      - DB_POSTGRESDB_PASSWORD=your-postgres-password-here
+
+      # Server
+      - N8N_HOST=localhost
+      - N8N_PORT=5678
+      - N8N_PROTOCOL=http
+
+      # Regional Settings
+      - GENERIC_TIMEZONE=Asia/Singapore
+      # Options: Asia/Singapore, Asia/Kuala_Lumpur, Asia/Jakarta
+
+      # Execution Settings
+      - EXECUTIONS_DATA_MAX_AGE=168  # Hours (7 days)
+      - EXECUTIONS_TIMEOUT=300  # Seconds (5 minutes)
+      - EXECUTIONS_DATA_SAVE_ON_ERROR=all
+      - EXECUTIONS_DATA_SAVE_ON_SUCCESS=all
+      - EXECUTIONS_DATA_SAVE_MANUAL_EXECUTIONS=true
+
+      # Webhook Settings (if exposing externally)
+      # - WEBHOOK_URL=https://your-domain.com
+
+      # Email Settings (optional, for notifications)
+      # - N8N_EMAIL_MODE=smtp
+      # - N8N_SMTP_HOST=smtp.gmail.com
+      # - N8N_SMTP_PORT=587
+      # - N8N_SMTP_USER=your-email@gmail.com
+      # - N8N_SMTP_PASS=your-app-password
+      # - N8N_SMTP_SENDER=your-email@gmail.com
+
+    volumes:
+      - n8n_data:/home/node/.n8n
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+volumes:
+  n8n_data:
+    driver: local
+  postgres_data:
+    driver: local
