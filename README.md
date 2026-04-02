@@ -10,9 +10,13 @@ Practical, no-hype guides to help business leaders implement AI successfully. Cr
 
 ## Available Resources
 
+### 🚀 NEW: AI GTM Playbook (April 2026)
+**[AI GTM Playbook — 24 Workflows](./ai-gtm-playbook/)** — Complete go-to-market playbook with 24 copy-paste AI workflows across the full customer acquisition funnel. First presented at EO Malaysia, April 2026. Covers Awareness → Interest → Conversion → Retention → Intelligence, with Malaysia-specific guidance (HRD Corp, WhatsApp, bilingual content, PDPA).
+
 ### AI & Automation
 | Resource | Description |
 |----------|-------------|
+| [AI GTM Playbook](./ai-gtm-playbook/) | 24 workflows to win more customers with less effort — cold email, LinkedIn, WhatsApp, ICP builder, competitor intel, and more |
 | [AI Implementation Playbook](./ai-implementation-playbook/) | 10 proven AI use cases with ROI analysis, tools comparison, and 30-Day Pilot plan |
 | [AI Model Selection Guide](./ai-model-selection-guide/) | Navigate the AI provider landscape (OpenAI, Anthropic, Google, DeepSeek) — choose the right models |
 | [AI Tooling Security Guide](./ai-tooling-security-guide/) | Safely use AI tools (Claude Code skills, MCP servers, browser extensions) without exposing your company |
