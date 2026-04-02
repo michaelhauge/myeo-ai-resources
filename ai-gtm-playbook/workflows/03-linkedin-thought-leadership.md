@@ -55,7 +55,7 @@ Avoid: Corporate jargon, humble-bragging, vague statements like "AI is the futur
 ## Example Input
 
 ```
-Author: Michael Hauge, Managing Partner at Pertama Partners
+Author: [YOUR NAME], [YOUR TITLE] at [YOUR COMPANY NAME]
 Topic: Why most Malaysian companies are paying for AI tools their teams don't know how to use
 Target reader: HR Managers and CEOs at mid-market Malaysian companies
 Core message: Buying AI tools without training is like buying gym equipment you never use

@@ -129,9 +129,7 @@ Compare to: 1 additional BD hire = RM 8,000–15,000/month. The math is not clos
 
 MyEO.AI is an AI GTM resource hub built for EO (Entrepreneurs' Organization) members in Malaysia and Southeast Asia. This playbook was first presented at EO Malaysia in April 2026.
 
-Presented by **Michael Hauge**, Founder of [Pertama Partners](https://www.pertamapartners.com) — AI training and implementation for Southeast Asian enterprises.
-
-Questions? michael@pertamapartners.com | WA: +65 XXXX XXXX
+Built by EO members, for EO members. Questions or contributions? Open an issue in this repo.
 
 ---
 

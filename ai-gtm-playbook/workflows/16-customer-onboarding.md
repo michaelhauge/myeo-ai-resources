@@ -92,7 +92,7 @@ Rules for all emails:
 ## Example Input
 
 ```
-My company: Pertama Partners
+My company: [YOUR COMPANY NAME]
 Service: AI Readiness Audit + Implementation Roadmap (6-week engagement)
 Key milestones:
 1. Kickoff and diagnostic survey deployed (Week 1)
@@ -126,7 +126,7 @@ Your primary contact throughout is Michael Hauge (WhatsApp: +1 XXX-XXX-XXXX). Me
 
 Looking forward to building something useful for RHB.
 
-Pertama Partners Team
+[YOUR TEAM NAME]
 
 ---
 

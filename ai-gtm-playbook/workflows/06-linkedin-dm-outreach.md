@@ -60,7 +60,7 @@ Rules:
 ## Example Input
 
 ```
-My name: Michael Hauge, Pertama Partners (AI training for leadership teams)
+My name: [YOUR NAME], [YOUR COMPANY NAME] ([what you do])
 Prospect: Rashdan Yusof, Head of L&D at Maybank (just posted about employee upskilling)
 Something specific: He posted 3 days ago about the challenge of keeping training relevant in a fast-changing environment
 ```

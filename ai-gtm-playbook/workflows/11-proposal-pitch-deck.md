@@ -36,7 +36,7 @@ Write a professional proposal with these sections:
 3. Our Proposed Solution (specific deliverables, not generic capabilities)
 4. Implementation Timeline (week-by-week or phase-by-phase)
 5. Investment (pricing table — be specific and transparent)
-6. Why Pertama Partners / Why Us (differentiation without arrogance)
+6. Why [YOUR COMPANY NAME] / Why Us (differentiation without arrogance)
 7. Next Steps (clear CTA — what happens after they say yes)
 8. Terms (1–2 key commercial terms — payment schedule, IP ownership if relevant)
 
@@ -64,7 +64,7 @@ The deck should flow as: Problem → Solution → How it works → Proof → Inv
 ## Example Input
 
 ```
-My company: Pertama Partners
+My company: [YOUR COMPANY NAME]
 Client: Affin Bank Malaysia
 Contact: Datin Rozana, Chief Human Resources Officer
 What they need: AI literacy programme for 80 senior managers across Affin Bank branches — board has mandated AI capability by end of Q2 2026

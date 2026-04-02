@@ -45,7 +45,7 @@ Write the complete content, ready to paste into Canva or Google Docs.
 ```
 Type: Checklist
 Topic: AI readiness for Malaysian leadership teams
-Company: Pertama Partners
+Company: [YOUR COMPANY NAME]
 Offer: AI training workshops, SBL-Khas eligible
 Target reader: HR Managers at mid-market KL companies (200–1,000 staff)
 Pain point: Not sure where to start with AI training or how to justify the spend

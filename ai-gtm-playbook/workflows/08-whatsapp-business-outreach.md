@@ -63,7 +63,7 @@ Keep each response under 3 lines. WhatsApp conversations should feel like textin
 ## Example Input
 
 ```
-Business: Pertama Partners
+Business: [YOUR COMPANY NAME]
 Offer: Free AI readiness assessment for their leadership team (30-min call)
 Target: HR managers I've met at MIHRM events — warm contacts, have business cards
 Goal: Book a 30-minute discovery call
@@ -80,7 +80,7 @@ I'm reaching out because I'm offering a complimentary 30-minute AI Readiness Ass
 
 No pitch, just clarity. Would this be useful for you?
 
-Michael Hauge | Pertama Partners
+[YOUR NAME] | [YOUR COMPANY NAME]
 
 **Follow-up (Day 3)**:
 Hi [Name], just checking if you saw my message. Happy to share more details if helpful. 🙏

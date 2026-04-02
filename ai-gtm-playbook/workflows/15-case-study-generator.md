@@ -91,7 +91,7 @@ Length: 500–700 words.
 - **Outcome:** 94% of participants rated training "immediately applicable"; HRD Corp levy fully utilised
 
 **Client Quote:**
-> "We had tried to run AI sessions internally and they always felt too technical for our business leaders. Pertama Partners built something our people actually used the next day."
+> "We had tried to run AI sessions internally and they always felt too technical for our business leaders. [Your Company] built something our people actually used the next day."
 > — *Head of Human Resources, Unilever Malaysia*
 
 ---

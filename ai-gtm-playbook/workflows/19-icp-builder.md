@@ -72,7 +72,7 @@ Based on this, produce:
 ## Example Input
 
 ```
-My business: Pertama Partners — AI training workshops for leadership teams. RM 15,000–50,000 per engagement.
+My business: [YOUR COMPANY NAME] — [what you sell and price range]
 
 Client 1:
 - Takaful Malaysia (insurance, 800 employees, KLCC)

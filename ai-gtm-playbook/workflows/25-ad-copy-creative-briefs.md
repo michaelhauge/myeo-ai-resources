@@ -102,7 +102,7 @@ Format: One brief per ad format. Written so a Canva-level designer can execute w
 ## Example Input
 
 ```
-My company: Pertama Partners
+My company: [YOUR COMPANY NAME]
 Service: AI Readiness Workshop for leadership teams
 Audience: HR Directors and COOs, 35–55, at Malaysian companies 200–5,000 staff, interested in "leadership development" and "AI"
 Platform: Meta (Facebook + Instagram)
@@ -138,7 +138,7 @@ Language: English (primary), one BM variant
 - **WhatsApp CTA**: For Malaysian lead gen, a "Chat on WhatsApp" CTA often outperforms "Fill in a form" — test both
 - **Festive periods**: Hari Raya, Chinese New Year, Deepavali — ad costs spike but so does reach. Have seasonal copy variants ready. Avoid running heavy sales messaging during these periods — brand warmth outperforms hard sell.
 - **BM copy**: Even if your audience is English-dominant, a Bahasa Malaysia variant in the creative (not the caption) signals local authenticity. Simple BM phrases on the image — not in the body copy.
-- **PDPA compliance**: Lead gen forms must include a PDPA consent checkbox. In your ad lead form, add: "By submitting, you consent to Pertama Partners contacting you in accordance with Malaysia's Personal Data Protection Act 2010."
+- **PDPA compliance**: Lead gen forms must include a PDPA consent checkbox. In your ad lead form, add: "By submitting, you consent to [YOUR COMPANY NAME] contacting you in accordance with Malaysia's Personal Data Protection Act 2010."
 
 ---
 

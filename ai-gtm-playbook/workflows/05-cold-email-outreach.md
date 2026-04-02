@@ -68,7 +68,7 @@ Format rules:
 ## Example Input
 
 ```
-Sender: Michael Hauge, Pertama Partners, Managing Partner
+Sender: [YOUR NAME], [YOUR COMPANY NAME], [YOUR TITLE]
 Offer: AI training workshops for leadership teams — practical, role-specific, SBL-Khas eligible under HRD Corp
 Social proof: SAP, Honeywell, Unilever, Zoom
 WhatsApp: +1 XXX-XXX-XXXX

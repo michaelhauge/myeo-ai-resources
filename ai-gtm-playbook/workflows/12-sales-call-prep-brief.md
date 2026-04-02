@@ -78,7 +78,7 @@ Using publicly available knowledge about [COMPANY NAME] and the [INDUSTRY] indus
 Prospect company: CIMB Bank Malaysia
 Prospect name and title: Farah Hanim, Head of Talent Development
 Meeting type: Discovery call
-My company: Pertama Partners
+My company: [YOUR COMPANY NAME]
 What I'm selling: AI literacy workshop for CIMB's leadership team (50 senior managers), SBL-Khas eligible, RM 35,000 for full programme
 How I found them: Cold email via Instantly campaign
 What I know: Farah replied saying she's "exploring options for leadership development in Q2"
