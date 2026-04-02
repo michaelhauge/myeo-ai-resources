@@ -1,0 +1,34 @@
+Tool Name,Vendor,Monthly Cost,Annual Cost,Renewal Date,Contract Length,Owner,Last Negotiation,Target Discount,Notes
+Slack,Slack Technologies,$125,$1500,2026-03-15,1 year,IT / John,2025-03-15 - Got 15% discount,15-20%,Annual contract
+Google Workspace,Google,$ $120,$1440,2026-01-30,1 year,IT / Sarah,N/A - first contract,10%,Multi-year contract
+Asana,Asana Inc.,$250,$3000,2026-04-20,1 year,Product / Mike,2025-04-20 - Got 10% discount,20%,Overlaps with Monday and Notion
+Zoom,Zoom Video,$150,$1800,2026-05-01,1 year,IT / John,2025-05-01 - List price,20%,Could use Google Meet instead
+Mailchimp,Intuit,$85,$1020,2026-06-15,1 year,Marketing / Lisa,2025-06-15 - Got 5% discount,15%,Expensive for features used
+HubSpot CRM,HubSpot,$900,$10800,2026-08-30,1 year,Sales / Tom,2025-08-30 - Got 12% discount,25-30%,Very expensive - evaluate Freshsales
+Notion,Notion Labs,$150,$1800,2026-07-10,1 year,Product / Sarah,2025-07-10 - List price,10%,Primary knowledge base
+Canva,Canva,$130,$1560,2026-09-01,1 year,Marketing / Lisa,2025-09-01 - Got 8% discount,10%,Team loves it
+1Password,AgileBits,$80,$960,2026-10-15,1 year,IT / John,N/A - first contract,10%,Essential for security
+Figma,Figma,$180,$2160,2026-12-05,1 year,Design / Emma,N/A - first contract,10%,Critical for design team
+Calendly,Calendly,$160,$1920,2027-02-20,1 year,Sales / Tom,2026-02-20 - Got 10% discount,15%,Good value
+GitHub,Microsoft,$200,$2400,2026-08-20,1 year,Engineering / Mark,N/A - first contract,10%,Critical for development
+BambooHR,BambooHR,$310,$3720,2026-09-10,1 year,HR / Rachel,2025-09-10 - List price,20%,Good but expensive
+QuickBooks,Intuit,$90,$1080,2026-06-30,1 year,Finance / David,2025-06-30 - List price,15%,Essential but expensive
+Zendesk,Zendesk,$445,$5340,2026-07-15,1 year,Support / Anna,2025-07-15 - Got 8% discount,25%,Duplicate with Intercom
+Intercom,Intercom,$890,$10680,2026-05-30,1 year,Support / Anna,2025-05-30 - Got 10% discount,30%,Very expensive
+Adobe Creative Cloud,Adobe,$550,$6600,2026-11-15,1 year,Design / Emma,2025-11-15 - List price,15%,Only 6 users need Adobe
+Dropbox,Dropbox,$240,$2880,2026-04-15,1 year,IT / John,2025-04-15 - List price,100%,Migrate to Google Drive - already included
+,,,,,,,,,
+,,,,,,,,,
+Instructions:,,,,,,,,
+"1. Fill in your SaaS tools, renewal dates, and costs",,,,,,,,
+"2. Update Owner with person responsible for each tool",,,,,,,,
+"3. Track Last Negotiation outcome (what discount you got)",,,,,,,,
+"4. Set Target Discount for next renewal (typical: 15-30%)",,,,,,,,
+"5. Use with renewal-tracker.py script to get automated reminders",,,,,,,,
+,,,,,,,,,
+Tips:,,,,,,,,
+"- Start negotiations 60 days before renewal",,,,,,,,
+"- Check vendor's fiscal quarter end for best discounts",,,,,,,,
+"- Research alternatives for competitive leverage",,,,,,,,
+"- Offer multi-year commitment for 15-25% discount",,,,,,,,
+"- Document last negotiation to track progress",,,,,,,,

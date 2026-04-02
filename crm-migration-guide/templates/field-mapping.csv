@@ -1,0 +1,82 @@
+Source CRM,Source Field,Target CRM,Target Field,Data Type,Notes,Required
+HubSpot,First Name,Zoho CRM,First Name,Text,Standard field,Yes
+HubSpot,Last Name,Zoho CRM,Last Name,Text,Standard field,Yes
+HubSpot,Email,Zoho CRM,Email,Email,Standard field,Yes
+HubSpot,Phone Number,Zoho CRM,Phone,Phone,Standard field,No
+HubSpot,Company Name,Zoho CRM,Company Name,Text,Links to Account,No
+HubSpot,Job Title,Zoho CRM,Title,Text,Standard field,No
+HubSpot,Lifecycle Stage,Zoho CRM,Lead Status,Picklist,Map values: Subscriber→Cold Lead Marketing Qualified Lead→Warm Lead Sales Qualified Lead→Hot Lead,No
+HubSpot,Lead Status,Zoho CRM,Lead Status,Picklist,Standard field,No
+HubSpot,Address,Zoho CRM,Street,Text,Standard field,No
+HubSpot,City,Zoho CRM,City,Text,Standard field,No
+HubSpot,State,Zoho CRM,State,Text,Standard field,No
+HubSpot,Postal Code,Zoho CRM,Zip Code,Text,Standard field,No
+HubSpot,Country,Zoho CRM,Country,Text,Standard field,No
+HubSpot,Website,Zoho CRM,Website,URL,Company field,No
+HubSpot,Deal Name,Zoho CRM,Deal Name,Text,Standard field,Yes
+HubSpot,Deal Amount,Zoho CRM,Amount,Currency,Standard field,No
+HubSpot,Deal Stage,Zoho CRM,Stage,Picklist,Map pipeline stages,Yes
+HubSpot,Close Date,Zoho CRM,Closing Date,Date,Standard field,No
+HubSpot,Deal Owner,Zoho CRM,Deal Owner,Lookup,Map to Zoho CRM user,No
+HubSpot,Contact Owner,Zoho CRM,Contact Owner,Lookup,Map to Zoho CRM user,No
+HubSpot,First Name,Freshsales,First Name,Text,Standard field,Yes
+HubSpot,Last Name,Freshsales,Last Name,Text,Standard field,Yes
+HubSpot,Email,Freshsales,Email,Email,Standard field,Yes
+HubSpot,Phone Number,Freshsales,Work Number,Phone,Standard field,No
+HubSpot,Mobile Phone Number,Freshsales,Mobile Number,Phone,Standard field,No
+HubSpot,Company Name,Freshsales,Account Name,Text,Links to Account,No
+HubSpot,Job Title,Freshsales,Job Title,Text,Standard field,No
+HubSpot,Lifecycle Stage,Freshsales,Lead Status,Picklist,Use one-click migration (auto-maps),No
+HubSpot,Deal Name,Freshsales,Deal Name,Text,Standard field,Yes
+HubSpot,Deal Amount,Freshsales,Amount,Currency,Standard field,No
+HubSpot,Deal Stage,Freshsales,Deal Stage,Picklist,Use one-click migration (auto-maps),Yes
+HubSpot,Close Date,Freshsales,Expected Close Date,Date,Standard field,No
+HubSpot,First Name,Pipedrive,First Name,Text,Standard field via Person,Yes
+HubSpot,Last Name,Pipedrive,Last Name,Text,Standard field via Person,Yes
+HubSpot,Email,Pipedrive,Email,Email,Standard field via Person,Yes
+HubSpot,Phone Number,Pipedrive,Phone,Phone,Standard field via Person,No
+HubSpot,Company Name,Pipedrive,Organization Name,Text,Links to Organization,No
+HubSpot,Job Title,Pipedrive,Job Title,Text,Custom field (create first),No
+HubSpot,Deal Name,Pipedrive,Deal Title,Text,Standard field,Yes
+HubSpot,Deal Amount,Pipedrive,Value,Currency,Standard field,No
+HubSpot,Deal Stage,Pipedrive,Stage,Picklist,Map pipeline stages,Yes
+HubSpot,Close Date,Pipedrive,Expected Close Date,Date,Standard field,No
+Salesforce,First Name,Zoho CRM,First Name,Text,Standard field,Yes
+Salesforce,Last Name,Zoho CRM,Last Name,Text,Standard field,Yes
+Salesforce,Email,Zoho CRM,Email,Email,Standard field,Yes
+Salesforce,Phone,Zoho CRM,Phone,Phone,Standard field,No
+Salesforce,Account Name,Zoho CRM,Account Name,Text,Standard field,No
+Salesforce,Title,Zoho CRM,Title,Text,Standard field,No
+Salesforce,Lead Status,Zoho CRM,Lead Status,Picklist,Map values,No
+Salesforce,Street,Zoho CRM,Street,Text,Standard field,No
+Salesforce,City,Zoho CRM,City,Text,Standard field,No
+Salesforce,State,Zoho CRM,State,Text,Standard field,No
+Salesforce,PostalCode,Zoho CRM,Zip Code,Text,Standard field,No
+Salesforce,Country,Zoho CRM,Country,Text,Standard field,No
+Salesforce,Opportunity Name,Zoho CRM,Deal Name,Text,Standard field,Yes
+Salesforce,Amount,Zoho CRM,Amount,Currency,Standard field,No
+Salesforce,StageName,Zoho CRM,Stage,Picklist,Map pipeline stages,Yes
+Salesforce,CloseDate,Zoho CRM,Closing Date,Date,Standard field,No
+Salesforce,Owner,Zoho CRM,Deal Owner,Lookup,Map to Zoho CRM user,No
+Salesforce,First Name,Freshsales,First Name,Text,Standard field,Yes
+Salesforce,Last Name,Freshsales,Last Name,Text,Standard field,Yes
+Salesforce,Email,Freshsales,Email,Email,Standard field,Yes
+Salesforce,Phone,Freshsales,Work Number,Phone,Standard field,No
+Salesforce,MobilePhone,Freshsales,Mobile Number,Phone,Standard field,No
+Salesforce,Account Name,Freshsales,Account Name,Text,Links to Account,No
+Salesforce,Title,Freshsales,Job Title,Text,Standard field,No
+Salesforce,Lead Status,Freshsales,Lead Status,Picklist,Use one-click migration (auto-maps),No
+Salesforce,Opportunity Name,Freshsales,Deal Name,Text,Standard field,Yes
+Salesforce,Amount,Freshsales,Amount,Currency,Standard field,No
+Salesforce,StageName,Freshsales,Deal Stage,Picklist,Use one-click migration (auto-maps),Yes
+Salesforce,CloseDate,Freshsales,Expected Close Date,Date,Standard field,No
+Salesforce,First Name,Pipedrive,First Name,Text,Standard field via Person,Yes
+Salesforce,Last Name,Pipedrive,Last Name,Text,Standard field via Person,Yes
+Salesforce,Email,Pipedrive,Email,Email,Standard field via Person,Yes
+Salesforce,Phone,Pipedrive,Phone,Phone,Standard field via Person,No
+Salesforce,Account Name,Pipedrive,Organization Name,Text,Links to Organization,No
+Salesforce,Title,Pipedrive,Job Title,Text,Custom field (create first),No
+Salesforce,Opportunity Name,Pipedrive,Deal Title,Text,Standard field,Yes
+Salesforce,Amount,Pipedrive,Value,Currency,Standard field,No
+Salesforce,StageName,Pipedrive,Stage,Picklist,Map pipeline stages,Yes
+Salesforce,CloseDate,Pipedrive,Expected Close Date,Date,Standard field,No

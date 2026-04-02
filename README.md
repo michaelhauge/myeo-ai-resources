@@ -24,6 +24,29 @@ Practical, no-hype guides to help business leaders implement AI successfully. Cr
 | [n8n SEA Guide](./n8n-sea-guide/) | Workflow automation — save 90-98% vs Zapier ($5.50/mo vs $75/mo) |
 | [OpenClaw SEA Guide](./openclaw-sea-guide/) | Open-source AI assistant on your own machine ($5-25/month total cost) |
 
+### Sales & Growth
+| Resource | Description |
+|----------|-------------|
+| [B2B Sales Playbook SEA](./b2b-sales-playbook-sea/) | B2B sales strategies, templates, and cultural selling guide for Southeast Asian markets |
+| [Customer Success SEA Guide](./customer-success-sea-guide/) | Customer success operations and retention playbooks for SEA businesses |
+| [Founder Scaling Guide](./founder-scaling-guide/) | Scaling strategies and operations frameworks for startup founders |
+| [Quick Win Templates](./quick-win-templates/) | 30+ ready-to-use templates: comparison guides, one-page summaries, and spreadsheet calculators |
+
+### Security & Compliance
+| Resource | Description |
+|----------|-------------|
+| [Security Audit Toolkit](./security-audit-toolkit/) | Complete security audit framework with scripts for macOS, Windows, and Linux |
+| [CISO Security Guide](./ciso-security-guide/) | Security frameworks and governance for CISOs and security leaders |
+| [SMB Cybersecurity Guide](./smb-cybersecurity-guide/) | Practical cybersecurity fundamentals for small and medium businesses |
+
+### SaaS & Operations
+| Resource | Description |
+|----------|-------------|
+| [SaaS Cost Optimization Guide](./saas-cost-optimization-guide/) | CFO's guide to cutting SaaS spend by 30-50% in Southeast Asian companies |
+| [SaaS Stack Optimization Guide](./saas-optimization-guide/) | Audit, consolidate, and renegotiate your SaaS stack to save $15K–50K/year |
+| [CRM Migration Guide](./crm-migration-guide/) | Step-by-step CRM migration strategies with scripts and templates |
+| [Remote Team Operations Guide](./remote-team-operations-guide/) | Remote team management practices and playbooks |
+
 
 ---
 

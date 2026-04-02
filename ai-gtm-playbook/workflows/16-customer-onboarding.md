@@ -1,136 +1,157 @@
-# Workflow 16: Customer Onboarding Sequences
+# 16. Customer Onboarding Sequences
 
-**Funnel Stage:** Retention
-**Time Saved:** 4–6 hours (one-time setup), then fully automated
-**Tools:** Claude, Mailchimp / ActiveCampaign / HubSpot, n8n
-**Difficulty:** Beginner
+**Funnel Stage**: Retention
+**Time Saved**: 4–8 hours to build; runs automatically thereafter
+**Tools**: Claude + Gmail / HubSpot / Mailchimp
+**Difficulty**: Beginner–Intermediate
 
 ---
 
 ## What This Workflow Does
 
-Creates a structured, personalised onboarding email sequence that automatically activates when a new client signs. Instead of ad-hoc welcome emails and hoping clients figure things out, every new customer gets a professional, confidence-building onboarding experience that reduces churn, increases engagement, and makes you look like a much larger operation than you are.
+Generates a complete client onboarding email sequence — from contract signing through to first value delivery. A strong onboarding sequence reduces churn, sets expectations, and makes clients feel they made the right decision. Most Malaysian SMEs have no formal onboarding at all — this becomes a competitive differentiator.
 
 ---
 
 ## The Prompt Template
 
-### Prompt 1 — Full Onboarding Sequence
-
 ```
-Create a customer onboarding email sequence for my business.
+You are a client success manager writing an onboarding email sequence for a Malaysian B2B service business.
 
-MY BUSINESS:
-Company: [COMPANY NAME]
-What we deliver: [PRODUCT / SERVICE — 2–3 sentences]
-Typical client: [WHO BUYS FROM US]
-Onboarding period: [e.g. first 30 days, first 90 days]
+My business:
+- Company: [YOUR COMPANY]
+- Service: [WHAT THE CLIENT PURCHASED]
+- Engagement length: [HOW LONG THE ENGAGEMENT RUNS]
+- Key milestones: [3–5 major milestones in your delivery process]
+- Primary client contact: [THEIR TITLE — who receives these emails]
+- Team members the client will work with: [YOUR NAMES + ROLES]
 
-COMMON NEW CLIENT ANXIETIES:
-1. [e.g. "Did I make the right decision?"]
-2. [e.g. "When will I see results?"]
-3. [e.g. "Who do I contact if something goes wrong?"]
+Client context:
+- Company: [CLIENT COMPANY]
+- Main contact name: [FIRST NAME]
+- What they want to achieve: [THEIR STATED GOAL]
+- Start date: [KICKOFF DATE]
 
-FIRST STEPS A NEW CLIENT NEEDS TO TAKE:
-1. [e.g. Complete onboarding form]
-2. [e.g. Schedule kickoff call]
-3. [e.g. Share team contact list]
+Write an onboarding sequence with these emails:
 
-KEY MILESTONES IN OUR DELIVERY:
-[e.g. Kickoff call → needs assessment → first deliverable → review → second phase]
+Email 1 — Welcome (send day of signing):
+- Warm welcome that confirms they made the right decision
+- What happens next in the next 48 hours
+- Who they'll hear from and when
+- Emergency contact (WhatsApp preferred for Malaysian clients)
+- Max 150 words
 
-Write a 6-email onboarding sequence:
+Email 2 — Pre-Kickoff Preparation (3 days before kickoff):
+- What to prepare for the kickoff meeting
+- Materials or data to bring / share in advance
+- Agenda preview
+- Confirm meeting time and logistics
+- Max 150 words
 
-EMAIL 1 (Immediately after signing): Welcome + confirm what happens next. Reassure them they made the right decision. Include first action they need to take. Under 200 words.
+Email 3 — Post-Kickoff Summary (same day as kickoff):
+- Summary of decisions made
+- What you'll do next, by when
+- What the client needs to do next, by when
+- Single point of contact and preferred communication channel
+- Max 150 words
 
-EMAIL 2 (Day 2): Practical setup email. Walk them through the first 2–3 steps. Include links, instructions, or what to prepare. Under 150 words.
+Email 4 — First Milestone Confirmation (upon reaching first milestone):
+- Celebrate the first tangible progress point
+- Share what was completed and what it means for the client
+- Preview the next phase
+- Ask: "Is there anything we should adjust based on what you've seen so far?"
+- Max 120 words
 
-EMAIL 3 (Day 7): Check-in. "How are you finding things?" + a useful tip or resource. Under 100 words.
+Email 5 — Mid-Engagement Check-In (halfway through engagement):
+- Progress summary (3 bullets)
+- Are we on track for their stated goal?
+- Flag any risks or changes in scope early — do not wait for the end
+- Invite them to a 30-min review call
+- Max 150 words
 
-EMAIL 4 (Day 14): Progress celebration. Acknowledge what they've done so far. Preview what's coming. 100 words.
-
-EMAIL 5 (Day 21): Case study or social proof relevant to their situation. Plant the idea of an upsell or referral. 150 words.
-
-EMAIL 6 (Day 30): 30-day milestone. What we've accomplished together. What's next. Invite them to leave a review or refer a colleague. 150 words.
-
-Tone: Warm, professional, confident. Write as if from [YOUR NAME / TEAM NAME].
-```
-
-### Prompt 2 — Quick Kickoff Call Agenda
-
-```
-Write a kickoff call agenda for a new client.
-
-Client company: [COMPANY]
-Client contact: [NAME, ROLE]
-Our deliverable: [WHAT WE'RE DELIVERING]
-Call duration: [30 / 60 minutes]
-
-Create an agenda that:
-1. Opens with a relationship-building moment (not straight to business)
-2. Confirms their goals and success metrics
-3. Covers logistics (timeline, communication preferences, point of contact)
-4. Sets expectations for what they'll see and when
-5. Ends with clear next steps
-
-Include suggested questions for each section.
+Rules for all emails:
+- Professional but warm — not corporate cold
+- First name only in greeting
+- No jargon
+- Plain text (no HTML fancy formatting — feels more personal)
+- Malaysian professional register
 ```
 
 ---
 
 ## How to Use It
 
-1. Run Prompt 1 once — this is your master onboarding sequence
-2. Load the 6 emails into your email platform (Mailchimp, ActiveCampaign, HubSpot) as an automated sequence
-3. Configure trigger: when a deal moves to "Closed Won" in your CRM → sequence activates automatically
-4. Customise Email 1 slightly per client (add their company name, specific deliverable)
-5. All subsequent emails send automatically on schedule
+1. Fill in the template once per service type — you'll reuse it for every client with small personalisation
+2. Run in Claude — adjust milestone-specific details for each client
+3. Schedule the sequence in HubSpot, Mailchimp, or Gmail Scheduled Send
+4. Personalise Email 1 and Email 3 manually — the others can run automatically
+5. Add WhatsApp touchpoints between emails for higher-touch clients
 
 ---
 
-## Example Email 1
+## Example Input
 
-**Subject:** Welcome to [Company] — here's what happens next
+```
+My company: Pertama Partners
+Service: AI Readiness Audit + Implementation Roadmap (6-week engagement)
+Key milestones:
+1. Kickoff and diagnostic survey deployed (Week 1)
+2. Department interviews complete (Week 3)
+3. Readiness Report delivered (Week 4)
+4. Roadmap workshop (Week 5)
+5. Final report and presentation (Week 6)
 
-> Hi [Name],
->
-> Welcome. We're genuinely glad you're here.
->
-> Over the next 30 days, we'll [brief description of what you'll deliver]. By the end, you'll have [specific outcome].
->
-> Your first step is simple: complete the onboarding form here → [LINK]. It takes 8 minutes and gives us everything we need to hit the ground running.
->
-> Your kickoff call is scheduled for [DATE/TIME]. If anything changes on your end, just reply to this email.
->
-> Looking forward to it.
->
-> [Your name]
+Client: RHB Bank
+Main contact: Izzati Mohd Zain, Head of Learning & Development
+Goal: Board-ready AI capability framework before Q3 board meeting
+Start date: April 7, 2026
+```
+
+---
+
+## Example Output (Email 1 — Welcome)
+
+**Subject**: You're On — Welcome to the AI Readiness Programme
+
+Hi Izzati,
+
+Welcome aboard — it's great to be working with RHB.
+
+Here's what happens next:
+— Our team lead Michael will send you a calendar invite for your kickoff session by tomorrow EOD
+— We'll share a short pre-work diagnostic for you to distribute to department heads (takes under 10 minutes)
+— First output: diagnostic summary, delivered 1 week after kickoff
+
+Your primary contact throughout is Michael Hauge (WhatsApp: +1 XXX-XXX-XXXX). Message anytime — we aim to respond within 2 hours on business days.
+
+Looking forward to building something useful for RHB.
+
+Pertama Partners Team
 
 ---
 
 ## Malaysia-Specific Tips
 
-- Send onboarding emails in English with a WhatsApp message to accompany each one — "Hi [Name], just sent you the onboarding details over email" bridges the gap for clients who prefer WhatsApp
-- For GLC and corporate clients, include a formal "Letter of Engagement" summary in Email 1 — they often need this for internal records
-- Acknowledge public holidays proactively — if a kickoff call is near Hari Raya, CNY, or Deepavali, mention it explicitly to avoid scheduling confusion
-- Malaysian clients respond well to being told exactly what to expect — reduce ambiguity in every email
+- **WhatsApp as primary channel**: Include a WhatsApp number in every onboarding email — Malaysian clients default to WhatsApp for quick questions, and a missed WhatsApp creates more anxiety than a missed email
+- **GLCs and banks**: Large clients have multiple internal stakeholders — ask in Email 2 who else should be copied on progress updates; don't assume your primary contact is the only decision-maker
+- **Post-kickoff summary**: Malaysian meeting culture is high-context — a written summary after every meeting prevents misalignment and creates an approval trail
+- **Mid-engagement check-in**: Don't wait until delivery to surface scope or timeline issues — Malaysian clients are often too polite to raise problems directly; the proactive check-in creates space for honest feedback
 
 ---
 
 ## Recommended Tools
 
-| Tool | Purpose | Cost |
-|------|---------|------|
-| Claude | Sequence generation | USD 20/month |
-| ActiveCampaign | Email automation + CRM trigger | USD 29/month |
-| HubSpot | CRM + email sequences (free tier) | Free / USD 45/month |
-| n8n | Custom automation (WhatsApp + email) | Free (self-hosted) |
+| Tool | Cost | Best For |
+|------|------|----------|
+| Claude (claude.ai) | Free / RM 85/mo | Writing the sequence |
+| HubSpot (free tier) | Free | Sequence automation and scheduling |
+| Gmail Scheduled Send | Free | Simple scheduling for solo businesses |
+| Mailchimp | Free (up to 500 contacts) | If onboarding many clients simultaneously |
 
 ---
 
 ## Expected Results
 
-- New clients feel confident and cared for from day one
-- Churn in first 30 days drops significantly (most churn is "buyer's remorse" — this prevents it)
-- Referrals and reviews come in at Day 30 (you ask for them at the right moment)
-- Your team spends zero time on manual onboarding follow-up
+- Full 5-email sequence written in 30 minutes
+- Client churn in the first 30 days drops significantly with structured onboarding
+- Post-kickoff summary emails alone reduce scope misalignment by preventing "that's not what I expected" conversations at delivery

@@ -1,0 +1,28 @@
+Tool Name,Vendor,Category,Monthly Cost,Annual Cost,Users Licensed,Users Active,Utilization %,Plan Level,Renewal Date,Owner/Champion,Usage Score (1-10),Value Score (1-10),Overlap Score (1-10),Cost Efficiency (1-10),Strategic Fit (1-10),Overall Score,Decision,Action Item,Notes
+Slack,Slack Technologies,Communication,$125,$1500,10,8,80%,Business+,2026-03-15,IT / John,8,9,7,6,9,7.8,Negotiate,Ask for 15% loyalty discount at renewal,Annual contract
+Google Workspace,Google,Productivity,$120,$1440,20,20,100%,Business Standard,2026-01-30,IT / Sarah,10,10,10,8,10,9.6,Keep,None - essential tool,Multi-year contract
+Asana,Asana Inc.,Project Management,$250,$3000,10,6,60%,Business,2026-04-20,Product / Mike,6,7,4,5,6,5.6,Consolidate,Migrate to Notion - save $240/month,Overlaps with Monday and Notion
+Monday.com,Monday.com,Project Management,$100,$1200,10,3,30%,Standard,2026-02-10,Marketing / Lisa,3,5,3,4,4,3.8,Cancel,Cancel after consolidating to Notion,Low utilization
+Zoom,Zoom Video,Meetings,$150,$1800,10,10,100%,Pro,2026-05-01,IT / John,9,9,7,7,9,8.2,Negotiate,Negotiate multi-year for 20% discount,Could use Google Meet instead
+Mailchimp,Intuit,Email Marketing,$85,$1020,5,4,80%,Standard,2026-06-15,Marketing / Lisa,7,8,5,3,6,5.8,Negotiate,Get competitive quote from Brevo,Expensive for features used
+HubSpot CRM,HubSpot,CRM,$900,$10800,10,9,90%,Professional,2026-08-30,Sales / Tom,9,9,6,2,8,6.8,Negotiate,Evaluate Freshsales - potential $510/month savings,Very expensive
+Notion,Notion Labs,Documentation,$150,$1800,15,12,80%,Team,2026-07-10,Product / Sarah,8,9,8,8,9,8.4,Keep,None - good value,Primary knowledge base
+Trello,Atlassian,Project Management,$50,$600,10,2,20%,Premium,2026-03-25,Engineering / Mark,2,3,2,5,3,3.0,Cancel,Zero usage past 90 days - cancel immediately,Duplicate of Asana
+Canva,Canva,Design,$130,$1560,10,7,70%,Pro,2026-09-01,Marketing / Lisa,7,8,7,9,8,7.8,Keep,None - great value vs Adobe CC,Team loves it
+1Password,AgileBits,Security,$80,$960,10,10,100%,Business,2026-10-15,IT / John,10,10,9,7,10,9.2,Keep,Consider Bitwarden for 50% savings when contract ends,Essential for security
+Loom,Loom,Video,$125,$1500,10,4,40%,Business,2026-11-20,Product / Mike,4,5,6,5,5,5.0,Cancel,OBS Studio is free alternative,Low value for cost
+Figma,Figma,Design,$180,$2160,15,12,80%,Professional,2026-12-05,Design / Emma,9,10,10,8,10,9.4,Keep,None - industry standard,Critical for design team
+Airtable,Airtable,Database,$200,$2400,10,7,70%,Pro,2027-01-10,Product / Sarah,7,8,6,5,7,6.6,Consolidate,Migrate simple bases to Google Sheets - save $100/month,Some use cases overkill
+Calendly,Calendly,Scheduling,$160,$1920,10,8,80%,Professional,2027-02-20,Sales / Tom,8,7,6,6,7,6.8,Negotiate,Ask for Teams plan discount,Good value
+Dropbox,Dropbox,Storage,$240,$2880,10,5,50%,Advanced,2026-04-15,IT / John,5,6,3,3,4,4.2,Consolidate,Migrate to Google Drive - save $180/month - already included,Overlaps with Google Workspace
+Intercom,Intercom,Support,$890,$10680,12,10,83%,Starter,2026-05-30,Support / Anna,8,9,5,2,8,6.4,Negotiate,Evaluate Freshdesk - potential $660/month savings,Very expensive
+QuickBooks,Intuit,Accounting,$90,$1080,1,1,100%,Plus,2026-06-30,Finance / David,9,10,10,6,9,8.8,Negotiate,Consider Xero for better UX - $53/month savings,Essential but expensive
+Zendesk,Zendesk,Support,$445,$5340,5,5,100%,Support Professional,2026-07-15,Support / Anna,9,9,4,4,7,6.6,Consolidate,Consolidate with Intercom - choose one - save $445/month,Duplicate with Intercom
+GitHub,Microsoft,Development,$200,$2400,50,45,90%,Team,2026-08-20,Engineering / Mark,10,10,10,9,10,9.8,Keep,None - essential,Critical for development
+BambooHR,BambooHR,HR,$310,$3720,50,50,100%,Essentials,2026-09-10,HR / Rachel,9,9,8,5,9,8.0,Negotiate,Evaluate Zoho People - potential $248/month savings,Good but expensive
+SurveyMonkey,Momentive,Surveys,$99,$1188,3,2,67%,Premier,2026-10-01,Marketing / Lisa,4,5,5,3,5,4.4,Cancel,Replace with Google Forms (free) - save $99/month,Low usage
+Adobe Creative Cloud,Adobe,Design,$550,$6600,10,6,60%,All Apps,2026-11-15,Design / Emma,7,8,7,2,7,6.2,Consolidate,Migrate 4 users to Canva Pro - save $164/month,Only 6 users need Adobe
+Expensify,Expensify,Expenses,$90,$1080,10,8,80%,Corporate,2026-12-20,Finance / David,7,7,6,6,7,6.6,Keep,Consider Zoho Expense at renewal for 56% savings,Works well currently
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,TOTALS,$6,361,,,,,,,,,,,,,,
