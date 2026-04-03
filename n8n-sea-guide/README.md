@@ -4,6 +4,11 @@
 
 ---
 
+> **Not technical? No problem.**
+> Skip the installation — sign up at [n8n Cloud](https://n8n.io/) in 5 minutes (€24/month, ~RM 120). No servers, no terminal. Jump straight to [First Workflow](guides/07-first-workflow.md) once signed in. The rest of this guide covers self-hosting to save money.
+
+---
+
 ## What is n8n?
 
 n8n is a **powerful workflow automation platform** that helps businesses automate repetitive tasks and connect different applications without writing code. Think of it as a cheaper, more flexible alternative to Zapier.

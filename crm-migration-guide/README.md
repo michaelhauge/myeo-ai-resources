@@ -1,3 +1,7 @@
+> **Under 5,000 records?** You can do the entire migration manually using the [checklist](templates/migration-checklist.md) and [field mapping template](templates/field-mapping.csv). The scripts in this guide are optional — they speed things up for large datasets only.
+
+---
+
 # CRM Migration Guide for Southeast Asia
 
 **Comprehensive guide to help SEA businesses migrate from expensive CRMs (HubSpot, Salesforce) to affordable alternatives - Save $200-500/month**

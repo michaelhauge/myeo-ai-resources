@@ -1,97 +1,140 @@
 # MyEO AI Resources
 
-**AI resource guides curated for EO members**
+**Practical AI guides for EO members and mid-market business founders in Southeast Asia**
 
-Practical, no-hype guides to help business leaders implement AI successfully. Created and maintained by the MyEO AI community.
+No hype. No vendor sponsorship. No coding required for most guides.
+Built by EO members, validated in real businesses across Malaysia, Singapore, and the region.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Maintained by Michael Hauge](https://img.shields.io/badge/Maintained%20by-Michael%20Hauge-blue)](https://github.com/michaelhauge)
 
 ---
 
-## Available Resources
+## New Here? Start With This
 
-### 🚀 NEW: AI GTM Playbook (April 2026)
-**[AI GTM Playbook — 24 Workflows](./ai-gtm-playbook/)** — Complete go-to-market playbook with 24 copy-paste AI workflows across the full customer acquisition funnel. First presented at EO Malaysia, April 2026. Covers Awareness → Interest → Conversion → Retention → Intelligence, with Malaysia-specific guidance (HRD Corp, WhatsApp, bilingual content, PDPA).
+> **[→ GETTING STARTED: Which guide is right for you?](./GETTING_STARTED.md)**
+
+This one page will point you to the right guide based on what you're trying to achieve — in plain language, no technical background required.
+
+---
+
+## All Resources
+
+### 🚀 Featured: AI GTM Playbook (April 2026)
+
+**[AI GTM Playbook — 24 Workflows](./ai-gtm-playbook/)**
+
+24 copy-paste AI prompt workflows across the full customer acquisition funnel. Built for EO Malaysia, April 2026. Works with Claude or ChatGPT. No installation required.
+
+**Start with these four** if you're new:
+1. [Workflow 19 — ICP Builder](./ai-gtm-playbook/workflows/19-icp-builder.md): Define your ideal customer in 30 minutes
+2. [Workflow 12 — Sales Call Prep Brief](./ai-gtm-playbook/workflows/12-sales-call-prep-brief.md): Walk into every call prepared
+3. [Workflow 05 — Cold Email Outreach](./ai-gtm-playbook/workflows/05-cold-email-outreach.md): Personalised email sequences in 5 minutes
+4. [Workflow 04 — Social Media Calendar](./ai-gtm-playbook/workflows/04-social-media-calendar.md): 30 days of content from one prompt
+
+---
 
 ### AI & Automation
-| Resource | Description |
-|----------|-------------|
-| [AI GTM Playbook](./ai-gtm-playbook/) | 24 workflows to win more customers with less effort — cold email, LinkedIn, WhatsApp, ICP builder, competitor intel, and more |
-| [AI Implementation Playbook](./ai-implementation-playbook/) | 10 proven AI use cases with ROI analysis, tools comparison, and 30-Day Pilot plan |
-| [AI Model Selection Guide](./ai-model-selection-guide/) | Navigate the AI provider landscape (OpenAI, Anthropic, Google, DeepSeek) — choose the right models |
-| [AI Tooling Security Guide](./ai-tooling-security-guide/) | Safely use AI tools (Claude Code skills, MCP servers, browser extensions) without exposing your company |
-| [AI Project Knowledge Guide](./ai-project-knowledge-guide/) | AI-powered project management, knowledge capture, and team workflow automation |
-| [n8n SEA Guide](./n8n-sea-guide/) | Workflow automation — save 90-98% vs Zapier ($5.50/mo vs $75/mo) |
-| [OpenClaw SEA Guide](./openclaw-sea-guide/) | Open-source AI assistant on your own machine ($5-25/month total cost) |
+
+| Resource | What It Does | Level |
+|----------|-------------|-------|
+| [AI GTM Playbook](./ai-gtm-playbook/) | 24 prompt workflows — cold email, LinkedIn, WhatsApp, ICP builder, competitor intel | Beginner |
+| [AI Implementation Playbook](./ai-implementation-playbook/) | 10 proven AI use cases with ROI, tools, and 30-day pilot plan | Beginner |
+| [AI Model Selection Guide](./ai-model-selection-guide/) | How to choose between OpenAI, Anthropic, Google, DeepSeek | Beginner |
+| [AI Tooling Security Guide](./ai-tooling-security-guide/) | How to safely allow AI tools in your company | Beginner |
+| [AI Project Knowledge Guide](./ai-project-knowledge-guide/) | AI-powered project management and knowledge capture | Beginner |
+| [n8n Workflow Automation](./n8n-sea-guide/) | Automate repetitive tasks — 90-98% cheaper than Zapier | Intermediate |
+| [OpenClaw SEA Guide](./openclaw-sea-guide/) | Free open-source AI assistant — $5-25/month total cost | Intermediate |
 
 ### Sales & Growth
-| Resource | Description |
-|----------|-------------|
-| [B2B Sales Playbook SEA](./b2b-sales-playbook-sea/) | B2B sales strategies, templates, and cultural selling guide for Southeast Asian markets |
-| [Customer Success SEA Guide](./customer-success-sea-guide/) | Customer success operations and retention playbooks for SEA businesses |
-| [Founder Scaling Guide](./founder-scaling-guide/) | Scaling strategies and operations frameworks for startup founders |
-| [Quick Win Templates](./quick-win-templates/) | 30+ ready-to-use templates: comparison guides, one-page summaries, and spreadsheet calculators |
+
+| Resource | What It Does | Level |
+|----------|-------------|-------|
+| [B2B Sales Playbook SEA](./b2b-sales-playbook-sea/) | Qualification, discovery, proposals, closing — built for SEA culture | Beginner |
+| [Customer Success SEA Guide](./customer-success-sea-guide/) | Retain and grow customers — onboarding, health scoring, churn prevention | Beginner |
+| [Founder Scaling Guide](./founder-scaling-guide/) | Operations, hiring, fundraising, and expansion for growing companies | Beginner |
+| [Quick Win Templates](./quick-win-templates/) | 30+ templates: 30-day checklists, comparison guides, calculators | Beginner |
 
 ### Security & Compliance
-| Resource | Description |
-|----------|-------------|
-| [Security Audit Toolkit](./security-audit-toolkit/) | Complete security audit framework with scripts for macOS, Windows, and Linux |
-| [CISO Security Guide](./ciso-security-guide/) | Security frameworks and governance for CISOs and security leaders |
-| [SMB Cybersecurity Guide](./smb-cybersecurity-guide/) | Practical cybersecurity fundamentals for small and medium businesses |
+
+| Resource | What It Does | Level |
+|----------|-------------|-------|
+| [SMB Cybersecurity Guide](./smb-cybersecurity-guide/) | Practical security basics for non-technical founders | Beginner |
+| [CISO Security Guide](./ciso-security-guide/) | Security governance frameworks for heads of security | Intermediate |
+| [Security Audit Toolkit](./security-audit-toolkit/) | Automated audit scripts for macOS, Windows, and Linux | Advanced |
 
 ### SaaS & Operations
-| Resource | Description |
-|----------|-------------|
-| [SaaS Cost Optimization Guide](./saas-cost-optimization-guide/) | CFO's guide to cutting SaaS spend by 30-50% in Southeast Asian companies |
-| [SaaS Stack Optimization Guide](./saas-optimization-guide/) | Audit, consolidate, and renegotiate your SaaS stack to save $15K–50K/year |
-| [CRM Migration Guide](./crm-migration-guide/) | Step-by-step CRM migration strategies with scripts and templates |
-| [Remote Team Operations Guide](./remote-team-operations-guide/) | Remote team management practices and playbooks |
 
+| Resource | What It Does | Level |
+|----------|-------------|-------|
+| [SaaS Stack Optimization](./saas-optimization-guide/) | Cut SaaS spend by 30-50% — audit, consolidate, renegotiate | Beginner |
+| [SaaS Cost Optimization (CFO)](./saas-cost-optimization-guide/) | Financial framework for CFOs managing SaaS spend | Beginner |
+| [CRM Migration Guide](./crm-migration-guide/) | Move your data to a new CRM without losing records | Beginner |
+| [Remote Team Operations](./remote-team-operations-guide/) | Run distributed teams across SEA — tools, compliance, culture | Beginner |
 
 ---
 
-## About MyEO AI
+## What "Beginner / Intermediate / Advanced" Means
 
-[MyEO AI](https://myeo.ai) is a member-gated AI knowledge platform for Entrepreneurs' Organization (EO) members. It provides:
+| Level | What It Assumes |
+|-------|----------------|
+| **Beginner** | No technical knowledge. Uses browser-based tools, copy-paste prompts, and manual steps. |
+| **Intermediate** | Comfortable downloading software, following a setup guide, and troubleshooting basic errors. |
+| **Advanced** | Comfortable with command-line tools, servers, or basic scripting. Not required for most users. |
 
-- **AI Tools Directory** — Peer-validated recommendations (no vendor hype)
-- **AI Models Finder** — Compare and select the right AI models for your needs
-- **Real Workflows** — Implementation stories from EO members who've successfully deployed AI
-- **Weekly AI Digest** — Curated signals and executive warnings
+> **Most resources in this repo are Beginner level.** Intermediate and Advanced guides always include a simpler alternative.
 
-**Tagline**: No vendors. No hype. Just what works.
+---
+
+## How These Guides Are Structured
+
+Every guide follows the same format so you always know where to look:
+
+```
+guide-name/
+├── README.md      ← Start here. Explains what the guide does and how to navigate it.
+├── guides/        ← Step-by-step how-to guides (numbered 01, 02, 03...)
+├── templates/     ← Copy-paste templates: emails, proposals, checklists, calculators
+└── scripts/       ← Optional scripts for technical users (always has a manual alternative)
+```
 
 ---
 
 ## Using These Resources
 
-All guides are in Markdown format and can be:
-- Read directly on GitHub
-- Cloned to your local machine
-- Forked and customized for your organization
-- Shared with your team
+All guides are Markdown files — you can:
+- **Read directly on GitHub** (no download needed)
+- **Clone to your computer**: `git clone https://github.com/michaelhauge/myeo-ai-resources`
+- **Fork and customise** for your company or team
+- **Share directly** — link to any page
 
-These are **living documents** — we welcome contributions and improvements via pull requests.
+---
+
+## About MyEO AI
+
+[MyEO AI](https://myeo.ai) is a member-gated AI knowledge platform for Entrepreneurs' Organization (EO) members. It provides peer-validated AI tools, workflows, and implementation guides — with no vendor hype and no affiliate incentives.
+
+**Tagline**: No vendors. No hype. Just what works.
 
 ---
 
 ## Contributing
 
-Found a typo? Have a better example? Want to add a new guide?
+Found an error? Have a tip that would help other EO members?
 
-1. Fork this repo
-2. Create a feature branch
-3. Make your changes
-4. Submit a pull request
+- **[Report a problem](.github/ISSUE_TEMPLATE/bug_report.md)**
+- **[Suggest new content](.github/ISSUE_TEMPLATE/content_suggestion.md)**
+- **[Read the contribution guide](.github/CONTRIBUTING.md)**
+
+---
+
+## Maintainer
+
+**Michael Hauge** — [CONTRIBUTORS.md](./CONTRIBUTORS.md)
 
 ---
 
 ## License
 
-MIT License - see [LICENSE](./LICENSE) file for details.
-
-Copyright © 2026 MyEO AI
-
----
-
-**Questions?** Visit [myeo.ai](https://myeo.ai) or open an issue in this repo.
+MIT License — see [LICENSE](./LICENSE) for details.
+Copyright © 2026 Michael Hauge & MyEO AI

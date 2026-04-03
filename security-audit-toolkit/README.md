@@ -1,3 +1,7 @@
+> **Not a security expert?** Start with the [SMB Cybersecurity Guide](../smb-cybersecurity-guide/) instead — it covers the same protections using browser-based tools and checklists, no command line required. Return here when you want to run automated audits across your systems.
+
+---
+
 # Security Audit Toolkit
 
 A comprehensive, cross-platform security audit toolkit for developers, system administrators, and security professionals. Run red team assessments on your own systems to identify vulnerabilities before attackers do.

@@ -4,6 +4,11 @@
 
 ---
 
+> **Not technical? No problem.**
+> Use [OpenClawd.ai](https://openclawd.ai) or [xCloud](https://xcloud.io) — managed hosting from $24-29/month, no installation needed. Everything in this guide works with managed hosting. Skip to [Use Cases](USE-CASES.md) to see what you can do first.
+
+---
+
 ## What is OpenClaw?
 
 OpenClaw is a **free, open-source AI assistant** with over 150,000 GitHub stars. It runs on your computer and connects to your favorite messaging apps (WhatsApp, Telegram, Slack) to help automate business tasks.

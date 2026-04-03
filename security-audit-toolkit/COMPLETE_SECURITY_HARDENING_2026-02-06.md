@@ -216,7 +216,7 @@ export HISTIGNORE='*sk-*:*AKIA*:*ghp_*:*gho_*:*ntn_*:*api-key*:*apikey*:*secret*
 **How:**
 1. Try committing a file with an API key
 2. Verify it blocks the commit
-3. Test with: `echo "sk-test123456789012345678901234567890" > test.txt && git add test.txt && git commit -m "test"`
+3. Test with: `echo "FAKE_KEY_FOR_TESTING_ONLY" > test.txt && git add test.txt && git commit -m "test"`
 4. Should see: "❌ BLOCKED: Potential secret detected"
 
 #### 4. Review Browser Extensions
